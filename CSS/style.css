@@ -27,27 +27,43 @@ a{
 }
 
 .mainimage{
-	margin-top: 112px;
+	margin-top: 110px;
 }
 .mainimage img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
-	resize: 150%
+	width: 280px;
+	height:100px; 
 }
 #searchbox{
 	text-align: center;
+
 }
 #searchbox input{
-	width: 40%;
+	width: 50%;
 	height: 3.5em;
+	border:51%;
+	color: whitesmoke;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
 }
+
 .submit{
 	text-align: center;
 }
+
 .submit button{
 	height: 2.5em;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-color: whitesmoke;
+	width:12.5%;
+
 }
 .languages{
 	text-align: center;
@@ -60,28 +76,31 @@ a{
 }
 
 #main{
-	background: lightgray;
+	background: whitesmoke;
 	color: black;
 	margin-left: 20px;
 }
 #sidebar{
-	background: lightgray;
+	background: whitesmoke;
 	color: black;
 	margin-left: 20px;
 }
 #main a{
 	color: black;
-	background-color: lightgrey;
+	background-color: whitesmoke;
+	font-weight: lighter;
 }
 #sidebar a{
 	color: black;
-	background-color: lightgrey;
+	background-color: whitesmoke;
+	font-weight: lighter;
 }
 footer{
-	background-color: lightgrey;
+	background-color: whitesmoke;
 	margin: 0;
 	padding: 0;
 	position:relative;
+	height: 88px;
 }
 footer h5{
 	font-weight: lighter;
@@ -89,8 +108,11 @@ footer h5{
 	color: black;
 	font-size: 13px;
 }
-#sidebar{
-	position: absolute;
-	left: 1200px;
-	bottom: 1px;
+#main a{
+	float: left;
+	width: 120px;
+}
+#sidebar a{
+	float: right;
+	width: 60px;
 }
