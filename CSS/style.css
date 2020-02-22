@@ -1,0 +1,96 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    margin: 0;
+
+}
+a{
+	text-decoration: none;
+	list-style: none;
+	color: black;
+}
+.mainnav{
+	text-align: end;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+.mainnav a{
+	text-decoration: none;
+	color: black;
+}
+.mainnav a button{
+	background-color: blue;
+	color:white;
+	height: 2.5em;
+}
+
+.mainimage{
+	margin-top: 112px;
+}
+.mainimage img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	resize: 150%
+}
+#searchbox{
+	text-align: center;
+}
+#searchbox input{
+	width: 40%;
+	height: 3.5em;
+}
+.submit{
+	text-align: center;
+}
+.submit button{
+	height: 2.5em;
+}
+.languages{
+	text-align: center;
+	color: black;
+} 
+}
+.languages a{
+	color: black;
+	text-decoration: none;
+}
+
+#main{
+	background: lightgray;
+	color: black;
+	margin-left: 20px;
+}
+#sidebar{
+	background: lightgray;
+	color: black;
+	margin-left: 20px;
+}
+#main a{
+	color: black;
+	background-color: lightgrey;
+}
+#sidebar a{
+	color: black;
+	background-color: lightgrey;
+}
+footer{
+	background-color: lightgrey;
+	margin: 0;
+	padding: 0;
+	position:relative;
+}
+footer h5{
+	font-weight: lighter;
+	margin-left: 20px;
+	color: black;
+	font-size: 13px;
+}
+#sidebar{
+	position: absolute;
+	left: 1200px;
+	bottom: 1px;
+}
